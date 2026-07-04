@@ -1,4 +1,5 @@
 # AI-Assisted Lease Audit & IFRS 16 Analyser
+> Follows on from my earlier [AI-in-Accounting-Portfolio](https://github.com/Haagen-Lim/AI-in-Accounting-Portfolio) - this project applies a more advanced, agentic approach to a single audit-specific problem.
 
 ## Objective
 A working demonstration of AI-assisted audit evidence extraction: instead of manually reading every lease contract to pull out IFRS 16-relevant terms, this pipeline uses Claude (Anthropic) with **forced structured tool-use output** to extract lease data, then runs it through a deterministic Python engine for measurement and audit risk flagging.
